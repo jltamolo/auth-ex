@@ -1,0 +1,95 @@
+#left{
+    float:left;
+  }
+  #right{
+    float:right;
+    
+  }
+  .cert_no{
+      max-width: max-content;
+  }
+  .mssg{
+   text-align: center;
+    background-color: #91a024;
+    color:#fff;
+    border-radius: 10px;
+    overflow: hidden;
+  
+  
+  }
+  .wrapper{
+      width: 100%;  
+      min-height: 100vh;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      
+      background:rgb(82, 53, 0);
+     
+    }
+    .header-cert{
+        text-align: center;
+    }
+    .cert-form{
+      width: 790px;
+  
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 72px 55px 90px 55px;
+    }
+    .center {
+      width: 790px;
+      text-align: center;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      padding: 10px 55px 90px 55px;
+    }
+  .verify-btn{
+    width: 30%;
+      display: grid;
+      margin:auto;
+      text-align: center;
+      background-color: #91a024;
+      color: white;
+      padding: 10px 10px;
+      border: 3px white;
+      border-radius: 4px;
+      font-size: 14px;
+      
+      
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+    .form-label{
+        width: 50%;
+        
+    }
+    .part-name{
+        font-size: 30px;
+        color: rgb(82, 53, 0);
+    }
+    input[type=submit]:hover {
+      background-color:rgb(82, 53, 0);
+    }
+    .btn{
+      width: auto;
+    }
+    
